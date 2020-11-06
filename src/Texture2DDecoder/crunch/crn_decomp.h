@@ -395,6 +395,7 @@ namespace crnd
 #else
    #ifdef __x86_64__
       typedef uint64 ptr_bits;
+   #else
       #ifdef __aarch64__
          typedef uint64 ptr_bits;
       #else
